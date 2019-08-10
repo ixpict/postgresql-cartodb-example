@@ -1,6 +1,6 @@
 # About
 
-Samble build for cartodb postgresql-10 based on ubuntu:bionic
+Sample build for cartodb postgresql-10 based on ubuntu:bionic
 
 Use volume /data/postgresql for postgresql data.
 

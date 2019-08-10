@@ -1,0 +1,12 @@
+---
+version: "2.1"
+
+services:
+  cartodb:
+    build: .
+    image: postgresql-cartodb
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data:/data/postgresql
+      - ./log:/var/log/postgresql

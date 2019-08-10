@@ -4,7 +4,7 @@ Samble build for cartodb postgresql-10 based on ubuntu:bionic
 
 Use volume /data/postgresql for postgresql data.
 
-Install the extensions:
+Installed extensions:
 
 * postgis
 * plpythonu
